@@ -11,6 +11,10 @@ HOW TO BUILD, TEST, AND INSTALL:
 	% zcat ezmlm-idx-x.y.z.tar.gz | tar -xvf
 	% cd ezmlm-idx-x.y.z
 
+  Build the Makefile by running 
+
+  % tools/makemake	
+
  2. Check all the settings in the conf-* files.  In particular:
  
     Put the desired ezmlm bin path into conf-bin. Default
